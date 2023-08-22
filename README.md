@@ -88,3 +88,14 @@ Here are a few examples of how to use the `ext2_tool` program:
 
 Contributions are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request.
 
+## Important
+
+- This script is for educational purposes only and should not be used for illegal activities.
+- The script's purpose is to illustrate the concepts behind ransomware attacks and to highlight the importance of cybersecurity.
+- Using this script for malicious purposes is illegal and unethical.
+
+## Author
+
+This script was created by yahav breslav. Connect with me on [[LinkedIn](https://www.linkedin.com/in/yahav-breslav-bitton/) or [GitHub](https://github.com/yahavbb)].
+
+
