@@ -1,12 +1,3 @@
-/****************************************
-	interviewer : daniel
-	date:  jan 16
-	status: approved
-	quote of the day :"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." 
-	quoter : Patrick McKenzie
-****************************************/
-
-
 #include <stddef.h>    /*size_t*/
 #include <fcntl.h>     /*open,read*/
 #include <unistd.h>    /*SEEK_SET*/
