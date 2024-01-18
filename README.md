@@ -1,101 +1,81 @@
-
-
-# ext2 File System Manipulation
-
-A C program for interacting with ext2 file systems, implementing various operations such as reading superblocks, group descriptors, inodes, and directory entries, as well as changing permissions and printing file contents.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Building](#building)
-  - [Usage](#usage)
-- [Usage Examples](#usage-examples)
-- [Contributing](#contributing)
-- [License](#license)
+# Ext2 File System Manipulation
 
 ## Introduction
 
-This project contains C code for working with the ext2 file system, a popular filesystem format used in Unix-like operating systems. The code provides functions to perform various tasks such as locating important file system components, reading file contents, changing permissions, and more.
+Welcome to the Ext2 Manipulation project! This tool is designed for interacting with Ext2 file systems, primarily used in Unix-like operating systems. It's an invaluable resource for understanding and managing Ext2 file systems, whether you're a student, a developer, or just a tech enthusiast.
 
 ## Features
 
-- Find and read superblocks, group descriptors, inodes, and directory entries
-- Print information about file system components
-- Change permissions of files
+- **Superblock and Group Descriptor Analysis**: Easily locate and read superblocks and group descriptors.
+- **Inode and Directory Entry Exploration**: Access and examine inodes and directory entries in detail.
+- **File System Component Printing**: Print critical information about file system components for easy analysis.
+- **Permission Management**: Effortlessly change file permissions within the Ext2 file system.
 
 ## Getting Started
 
 ### Prerequisites
 
-To compile and run this code, you need:
-
-- A C compiler (e.g., GCC)
-- A Unix-like environment (Linux preferred)
+- A C compiler (like GCC)
+- A Unix-like operating system (Linux is ideal)
 
 ### Building
 
-1. Clone the repository:
-
+1. **Clone the Repository**:
    ```sh
    git clone https://github.com/yahavbb/Ext2-Manipulation.git
-   Ext2-Manipulation
+   cd Ext2-Manipulation
    ```
 
-2. Compile the code:
-
+2. **Compile the Code**:
    ```sh
-   make 
+   make
    ```
 
 ### Usage
 
-Run the compiled program with appropriate arguments to perform different operations on ext2 file systems.
+Execute the program with suitable arguments to perform various operations:
 
 ```sh
 ./ext2_tool <virtual_disk> <file_path> <operation> <permission>
 ```
 
-- `virtual_disk`: Path to the virtual disk image of the ext2 file system.
-- `file_path`: Path to the file or directory within the ext2 file system.
-- `operation`: Specify the operation to perform (e.g., `print`, `chmod`).
-- `permission`: For the `chmod` operation, provide the desired permission in octal format.
+- `virtual_disk`: Path to the virtual disk image of the Ext2 file system.
+- `file_path`: Path to the target file or directory within the file system.
+- `operation`: The desired operation (e.g., `print`, `chmod`).
+- `permission`: For `chmod`, specify the permission in octal format.
 
 ## Usage Examples
 
-Here are a few examples of how to use the `ext2_tool` program:
+Here are some practical examples:
 
-1. Print information about the superblock and group descriptor:
-
+1. **Print Superblock and Group Descriptor Info**:
    ```sh
    ./ext2_tool disk.img /some/file/path print
    ```
 
-2. Print the contents of a file:
-
+2. **Display File Contents**:
    ```sh
    ./ext2_tool disk.img /path/to/file.txt print
    ```
 
-3. Change the permission of a file:
-
+3. **Change File Permission**:
    ```sh
    ./ext2_tool disk.img /path/to/file.txt chmod 644
    ```
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or want to enhance the project, feel free to submit a pull request.
+Your contributions make this project better! Feel free to submit pull requests or report issues. Let's make this tool more powerful together!
 
-## Important
+## Note
 
-- This script is for educational purposes only and should not be used for illegal activities.
-- The script's purpose is to illustrate the concepts behind ransomware attacks and to highlight the importance of cybersecurity.
-- Using this script for malicious purposes is illegal and unethical.
+- This project is for educational and research purposes. Please use it responsibly.
+- Any misuse for illegal activities is strongly discouraged and against the project's ethical guidelines.
 
-## Author
+## About the Author
 
-This script was created by yahav breslav. Connect with me on [[LinkedIn](https://www.linkedin.com/in/yahav-breslav-bitton/) or [GitHub](https://github.com/yahavbb)].
+This project was passionately crafted by Yahav Breslav. Connect with me on [LinkedIn](https://www.linkedin.com/in/yahav-breslav-bitton/) or visit my [GitHub](https://github.com/yahavbb) for more exciting projects.
 
+---
 
+Feel free to use or modify this enhanced README to better suit your project's needs!
